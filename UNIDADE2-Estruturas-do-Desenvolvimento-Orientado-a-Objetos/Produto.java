@@ -9,11 +9,11 @@ public class Produto{
 
     public Produto(String nome){
         this.nome = nome;
-        this.preco = 4.50
+        this.preco = 4.50;
     }
 
     public void exibirDetalhes(){
-        System.out.println("Produto: " + nome ", preço" + preco)
+        System.out.println("Produto: " + nome + ", preço: " + preco);
     }
     public static void main (String[] args){
          Produto p1 = new Produto("Caneta", 3.50);
@@ -23,4 +23,4 @@ public class Produto{
          p2.exibirDetalhes();
          
     }
-   
+} 
