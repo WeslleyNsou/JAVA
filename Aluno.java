@@ -37,4 +37,9 @@ public class Aluno {
         System.out.println("Matrícula: " + matricula);
         System.out.println("Nota: " + nota);
     }
+
+    public double calcularMedia() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularMedia'");
+    }
 }
