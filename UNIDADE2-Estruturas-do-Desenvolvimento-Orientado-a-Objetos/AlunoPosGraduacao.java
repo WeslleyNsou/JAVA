@@ -5,6 +5,6 @@ public class AlunoPosGraduacao extends Aluno implements Avaliacao {
 
     @Override
     public double calcularMedia() {
-        return getNota() * 1.0;
+        return getNota() * 1.2;
     }
 }
