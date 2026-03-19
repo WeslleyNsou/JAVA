@@ -42,7 +42,7 @@ class Principal {
             double resultadoSoma = soma.calcular(5, 3);
             System.out.println("Resultado da soma: " + resultadoSoma);
             
-            double resultadoDivisao = divisao.calcular(10, 5);
+            double resultadoDivisao = divisao.calcular(10, 0);
             System.out.println("Resultado da divisão: " + resultadoDivisao);
         } catch (Exception e) {
             System.out.println("Erro: " + e.getMessage());
