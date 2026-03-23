@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Array;
 
 public class Livro {
     private String titulo;
@@ -29,8 +28,8 @@ class Principal {
         biblioteca.add(new Livro("As Viagens de Gulliver", "Jonathan Swift", 1726));
 
         for (Livro livro : biblioteca) {
-           if(livro.ExibirInformacoes().contains("J.R.R. Tolkien") || livro.ExibirInformacoes().contains("C.S. Lewis")) {  
-            System.out.println(livro.ExibirInformacoes(livro.titulo, livro.autor));
+           if(livro.ExibirInformacoes().contains("J.R.R. Tolkien")) {  
+            System.out.println(livro.ExibirInformacoes());
            }
         }
     }
